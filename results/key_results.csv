@@ -1,0 +1,8 @@
+metric,value
+embedding_method_partial_eta_squared,0.644729
+prompt_type_partial_eta_squared,0.066000
+data_setting_partial_eta_squared,0.006459
+standard_cosine_mean_absolute_bias,0.010381
+gender_direction_removed_mean_absolute_bias,0.002056
+mean_centered_mean_absolute_bias,0.022689
+projection_signed_gap_pearson_r,0.999851
