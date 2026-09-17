@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="430" viewBox="0 0 980 430" role="img" aria-labelledby="title desc">
+  <title id="title">Mean absolute gender association gap by embedding method</title>
+  <desc id="desc">Bar chart comparing gender-direction removed, standard cosine, and mean-centered embedding methods.</desc>
+  <rect width="980" height="430" fill="#ffffff"/>
+  <text x="60" y="55" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">Measured gap changes sharply with embedding geometry</text>
+  <text x="60" y="88" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">Mean absolute association gap across 180 matched conditions</text>
+  <g font-family="Arial, sans-serif" font-size="17" fill="#111827">
+    <text x="60" y="160">Gender-direction removed</text>
+    <text x="60" y="240">Standard cosine</text>
+    <text x="60" y="320">Mean-centered</text>
+  </g>
+  <g>
+    <rect x="285" y="132" width="62" height="38" rx="7" fill="#9ca3af"/>
+    <rect x="285" y="212" width="311" height="38" rx="7" fill="#4b5563"/>
+    <rect x="285" y="292" width="681" height="38" rx="7" fill="#111827"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">
+    <text x="363" y="159">0.00206</text>
+    <text x="612" y="239">0.01038</text>
+    <text x="865" y="319" fill="#ffffff">0.02269</text>
+  </g>
+  <line x1="285" y1="360" x2="966" y2="360" stroke="#d1d5db" stroke-width="1"/>
+  <text x="285" y="392" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">0.00</text>
+  <text x="930" y="392" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">0.023</text>
+</svg>
