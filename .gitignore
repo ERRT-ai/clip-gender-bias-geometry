@@ -6,6 +6,10 @@ build/
 .venv/
 venv/
 .ipynb_checkpoints/
+
+# Generated experiment artifacts: downloaded FairFace data, embedding caches,
+# intermediate tables and regenerated figures.
+artifacts/
 data/
 fairface/
 cache/
@@ -15,6 +19,7 @@ cache/
 *.pth
 results/generated/
 figures/generated/
+
 .DS_Store
 .vscode/
 .idea/
