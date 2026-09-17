@@ -2,6 +2,7 @@
 
 ### A controlled study of occupational gender association gaps in CLIP
 
+[![CI](https://github.com/ERRT-ai/clip-gender-bias-geometry/actions/workflows/ci.yml/badge.svg)](https://github.com/ERRT-ai/clip-gender-bias-geometry/actions/workflows/ci.yml)
 [![Paper](https://img.shields.io/badge/Paper-OpenReview-8A2BE2)](https://openreview.net/forum?id=ve0WcrVkcE)
 ![Model](https://img.shields.io/badge/Model-CLIP%20ViT--B%2F32-blue)
 ![Dataset](https://img.shields.io/badge/Dataset-FairFace-green)
@@ -148,6 +149,8 @@ Reusable implementations are in [`src/clip_bias_geometry/geometry.py`](src/clip_
 │       ├── metrics.py
 │       ├── prompts.py
 │       └── statistics.py
+├── tests/
+│   └── test_geometry.py
 └── results/
     └── key_results.csv
 ```
@@ -203,6 +206,16 @@ The reference experiment uses:
 - Pearson and Spearman correlations
 
 The exact archived results, including p-values and matched-comparison statistics, are listed in [`docs/RESULTS.md`](docs/RESULTS.md).
+
+---
+
+## Validation
+
+A lightweight CI workflow tests the reusable embedding-geometry and bias-metric utilities on Python 3.10 and 3.11. The tests do not download FairFace or require a GPU, so pull requests can validate the core numerical transformations quickly.
+
+```bash
+python -m pytest -q
+```
 
 ---
 
