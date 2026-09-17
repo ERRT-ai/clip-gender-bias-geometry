@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated OpenReview paper linked from the README. Use OpenReview as the source of truth for the paper's final bibliographic metadata."
+title: "CLIP Gender Bias Geometry"
+type: software
+authors:
+  - family-names: "Ruan"
+    given-names: "Huixin"
+repository-code: "https://github.com/ERRT-ai/clip-gender-bias-geometry"
+url: "https://openreview.net/forum?id=ve0WcrVkcE"
