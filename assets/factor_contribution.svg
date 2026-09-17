@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="430" viewBox="0 0 980 430" role="img" aria-labelledby="title desc">
+  <title id="title">Factor contribution to measured CLIP gender association gaps</title>
+  <desc id="desc">Horizontal bar chart showing partial eta squared for embedding method, prompt type, and data setting.</desc>
+  <rect width="980" height="430" fill="#ffffff"/>
+  <text x="60" y="55" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">Embedding geometry dominates measured association gaps</text>
+  <text x="60" y="88" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">Factorial ANOVA · partial η²</text>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#111827">
+    <text x="60" y="160">Embedding method</text>
+    <text x="60" y="240">Prompt type</text>
+    <text x="60" y="320">Data setting</text>
+  </g>
+  <g>
+    <rect x="250" y="132" width="580" height="38" rx="7" fill="#111827"/>
+    <rect x="250" y="212" width="59" height="38" rx="7" fill="#6b7280"/>
+    <rect x="250" y="292" width="6" height="38" rx="3" fill="#9ca3af"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">
+    <text x="848" y="159">0.6447</text>
+    <text x="325" y="239">0.0660</text>
+    <text x="272" y="319">0.0065</text>
+  </g>
+  <line x1="250" y1="360" x2="850" y2="360" stroke="#d1d5db" stroke-width="1"/>
+  <text x="250" y="392" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">0.0</text>
+  <text x="820" y="392" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">0.65</text>
+</svg>
